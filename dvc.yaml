@@ -5,7 +5,7 @@ stages:
       - data/preprocess.py
     outs:
       - data/train.csv
-      - data/test.csv
+      - data/test.csv 
 
   train:
     cmd: python data/train.py
